@@ -1,0 +1,32 @@
+\doxysection{Graph.\+h}
+\hypertarget{_graph_8h_source}{}\label{_graph_8h_source}\index{C:/Users/szara/source/repos/Pogoda/Graph.h@{C:/Users/szara/source/repos/Pogoda/Graph.h}}
+\mbox{\hyperlink{_graph_8h}{IdÅº do dokumentacji tego pliku.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ <wx/wx.h>}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_graph_a4eea7f5aea69c2b2b0cfa38b97e50935}{Graph}}\ :\ \textcolor{keyword}{public}\ wxPanel}
+\DoxyCodeLine{00008\ \{}
+\DoxyCodeLine{00009\ \textcolor{keyword}{private}:\ \textcolor{comment}{//Deklaracja\ zmiennych\ potrzebnych\ do\ tworzenia\ wykresu}}
+\DoxyCodeLine{00010\ \ \ \ \ \textcolor{keywordtype}{bool}\ m\_hasData\ =\ \textcolor{keyword}{false};}
+\DoxyCodeLine{00011\ \ \ \ \ vector<double>\ m\_xData;}
+\DoxyCodeLine{00012\ \ \ \ \ vector<double>\ m\_yData;}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ \textcolor{keyword}{public}:\ \textcolor{comment}{//redklaracja\ funkcji,\ przydatnych\ przy\ tworzeniu\ wykresów}}
+\DoxyCodeLine{00015\ \ \ \ \ \mbox{\hyperlink{class_graph_a4eea7f5aea69c2b2b0cfa38b97e50935}{Graph}}(wxWindow*\ parent);}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_graph_ae53f89138baa455e147f3573aa674f40}{SetData}}(\textcolor{keyword}{const}\ vector<double>\&\ x,\ \textcolor{keyword}{const}\ vector<double>\&\ y);}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_graph_a631cc17bd92d02a8e4870518520e6f3e}{OnPaint}}(wxPaintEvent\&\ event);}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keyword}{const}\ vector<double>\&\ \mbox{\hyperlink{class_graph_ab5978ac30a72e81ab8c173fabc316790}{getY}}()\textcolor{keyword}{const\ }\{}
+\DoxyCodeLine{00021\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ m\_yData;}
+\DoxyCodeLine{00022\ \ \ \ \ \}}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keyword}{const}\ vector<double>\&\ \mbox{\hyperlink{class_graph_af141e85f7e32185b4049c7241d1e91e4}{getX}}()\textcolor{keyword}{const\ }\{}
+\DoxyCodeLine{00024\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ m\_xData;}
+\DoxyCodeLine{00025\ \ \ \ \ \}}
+\DoxyCodeLine{00026\ \};}
+
+\end{DoxyCode}

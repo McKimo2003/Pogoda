@@ -1,0 +1,8 @@
+### WYMAGANIA SPRZĘTOWE:
+## Zalecane:
+- System: Windows 10 lub 11 | MacOS 15.4 lub nowsze
+- CPU: Windows - Ryzen 5 5600X | MacOS - Apple M1
+- GPU: Windows - Radeon RX 5700xt
+- RAM: Windows - 32GB | MacOS - 16 GB
+- Pamięć masowa: 5GB
+- Rozdzielczość ekranu: 1920x1080 (FullHD)
